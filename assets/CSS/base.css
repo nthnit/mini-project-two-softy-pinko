@@ -6,4 +6,9 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+::selection {
+    color: #FFF;
+    background-color: var(--color-two);
 }
